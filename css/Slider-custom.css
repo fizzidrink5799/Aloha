@@ -1,0 +1,137 @@
+* the same attribute */
+.cr1{
+  color: var(--cr1);
+}
+.c2{
+  color:  var(--cr2);
+}
+.cr3{
+  color:  var(--cr3);
+}
+.cr4{
+  color:  var(--cr4);
+}
+.cr5{
+  color:  var(--cr5);
+}
+.fs1{
+  font-size: 34px;
+}
+.fs2{
+  font-size: 24px;
+}
+.fs3{
+  font-size: 20px;
+}
+.fs4{
+  font-size: 16px;
+}
+.fs5{
+  font-size: 14px;
+}
+/* end the same attribute */
+@font-face {
+  src: url(ProductSansRegular_0.ttf);
+  font-family: product;
+}
+*{padding: 0px;margin: 0px;box-sizing: border-box;font-family: segoe ui}
+body,html{width:100%;height:100%;}
+[class*="container"]{
+  max-width: 1170px !important;
+}
+
+#sliderproduct{
+  width: 100%;
+}
+#sliderproduct .carousel-inner {
+  overflow: visible;
+}
+
+#sliderproduct .col-sm-6.image {
+background-image: url('../images/house.png');
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.item {
+  padding: 20px 20px 40px 20px;
+}
+
+.col-sm-6.image .item img.img-fluid {
+  /* Ai mướn thêm cái vào làm phá bố cục css của người ta.. mún trang web đẹp thì phải lựa cái ảnh đẹp đẹp vào rồi set cái độ rộng cho nó vừa là được rồi */
+  /*min-width: 100%;*/
+  width: 315px;
+}
+.col-sm-6.image h1 {
+  margin-bottom: 20px;
+}
+
+
+#sliderproduct .top a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 14px 22px;
+  background: #e0794f;
+  box-sizing: border-box !important;
+  text-align: center;
+  margin: 0px 2px;
+  display: block;
+  color: #fff;
+  width: 96px;
+}
+
+#sliderproduct .col-sm-4.mr-auto {
+  margin-top: 22px;
+}
+
+*{}
+
+#sliderproduct p.cr1 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+#sliderproduct .col-sm-6:last-child {
+  /* Cần nâng cao thêm kiến thức về sử dụng padding */
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+
+#sliderproduct .carousel-item{
+  transition: 0.4s;
+}
+
+
+#sliderproduct a.carousel-control-prev, #sliderproduct a.carousel-control-next {
+  border-radius: 50%;
+    color: #254D4D;
+    border: 3px solid #254D4D;
+  width: 46px;
+  height: 46px;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 40px;
+  opacity: 1;
+  top: 102%;
+  /* transform: translate(-50%,-60%); */
+}
+
+#sliderproduct a.carousel-control-prev {
+    left: 45%;
+}
+#sliderproduct a.carousel-control-next{
+    right: 45%;
+}
+
+.bg {
+  background-color: #fff;
+}
+
+#sliderproduct ol.carousel-indicators {
+  display: none;
+}
