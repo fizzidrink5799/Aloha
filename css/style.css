@@ -1,6 +1,6 @@
 body {
   font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background-color: #fff;
+  background-color: #EEF9F1;
   /* height: 200vh; */
   position: relative;
 }
@@ -239,3 +239,48 @@ header .navbar .cta-btn a:hover {
   box-shadow: none;
 }
 
+
+
+.Rectangle-top-left{
+position: absolute;
+width: 200px;
+height: 200px;
+left:5%;
+top: 8rem;
+
+background: #254D4D;
+border-radius: 5px;
+z-index: -1;
+}
+
+.Rectangle-bottom-right{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  right:5%;
+  bottom: 8rem;
+  
+  background: #254D4D;
+  border-radius: 5px;
+  z-index: -1;
+}
+
+
+.step-1{
+  background-image: url('../images/step-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2rem;padding-bottom: 2rem;
+}
+.step-2{
+  background-image: url('../images/step-2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2rem;padding-bottom: 2rem;
+}
+.step-3{
+  background-image: url('../images/step-3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2rem;padding-bottom: 2rem;
+}
