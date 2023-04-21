@@ -239,6 +239,18 @@ header .navbar .cta-btn a:hover {
   box-shadow: none;
 }
 
+.Rectangle-buy-home{
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  left:5%;
+  top: -5%;
+  
+  background: #254D4D;
+  border-radius: 5px;
+  z-index: -1;
+  }
+  
 
 
 .Rectangle-top-left{
@@ -283,4 +295,12 @@ z-index: -1;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 2rem;padding-bottom: 2rem;
+}
+
+
+
+.Faq-style{
+  background: #eef9f1;
+  border: 1px solid #254d4d !important;
+  cursor: pointer;
 }

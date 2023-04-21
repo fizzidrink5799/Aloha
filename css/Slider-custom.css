@@ -122,10 +122,10 @@ position: relative;
 }
 
 #sliderproduct a.carousel-control-prev {
-    left: 45%;
+    left: 30vw;
 }
 #sliderproduct a.carousel-control-next{
-    right: 45%;
+    right: 30vw;
 }
 
 .bg {
